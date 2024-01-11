@@ -37,6 +37,12 @@ a:hover {
 	color:#6CC7DC;
 	}
 
+table, th, td {
+	border: 1px solid black;
+	border-style: dotted;
+	text-align: center;
+ }
+
 /* Structure */
 
 #wrapper {
@@ -62,6 +68,7 @@ a:hover {
 	width:180px;
 	background:#efefef;
 	margin-right:10px;
+	text-align: center;
 	}
 #content {
 	float:left;
@@ -180,6 +187,13 @@ h1 {
 	color:#000000;
 	font-style:italic;
 	}
+
+h2 {
+	text-decoration: underline;
+	font-weight: bold;
+	font:0.5em;
+	margin-bottom: 1em;
+}
 
 /* Feed */
 
